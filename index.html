@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> LVQ </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\Notebook\Desktop\bootstrap/estilos.css" />
+</head>
+
+<header> 
+    <nav class="navbar navbar-expand-lg bg-warning" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="C:\Users\Notebook\Desktop\bootstrap\index.html"> <img src="C:\Users\Notebook\Desktop\bootstrap\img/logo.png" height="35px"/> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="views/calidad.html">Calidad</a>
+              </li>
+
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+              </li>
+              
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Picadas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="views/chica.html">Chica</a></li>
+                  <li><a class="dropdown-item" href="views/mediana.html">Mediana</a></li>
+                  <li><a class="dropdown-item" href="views/grande.html">Grande</a></li>
+                  <li><a class="dropdown-item" href="views/quesos.html">Quesos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="views/picadas/otras.html">Otras</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1jN0_EIQ6LTtqNBKDtOrV4zDhrD_qs_b4LOXlVQshNHE/edit?usp=sharing">Vinos</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carro"> <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" width="20px"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="BUSCAR" aria-label="Search">
+              <button type="button" class="btn btn-light"><img src="C:\Users\Notebook\Desktop\bootstrap\img/lupa.png" height="17px"></button>
+            </form>  
+          </div>
+        </div>
+      </nav>
+</header>
+
+<body>
+
+<main class="container p-5">
+
+<h2 class="h4 m-4 text-warning"> Picadas </h2>
+<div class="tarjetas">
+  <div class="row row-cols-sm-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+   
+    <div class="col d-flex justify-content-center-mb-4"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Picada Chica</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/chica.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> COMEN 2 | PICAN 3 <br>
+          </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 1200</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-4"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Picada Mediana</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/mediana.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> COMEN 4 | PICAN 6 <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 2500</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-4"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Picada Grande</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/grande.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> COMEN 8 | PICAN 12 <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 1200</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-4"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Picada de quesos chica</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/chica.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> COMEN 2 | PICAN 3 <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 1200</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-4"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Picada de quesos mediana</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/chica.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> COMEN 2 | PICAN 3 <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 1200</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-3"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Picada de quesos grande</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/chica.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> COMEN 2 | PICAN 3 <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 1200</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-3"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning"> Regalos empresariales </h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/chica.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> individuales <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 1500</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+    <div class="col d-flex justify-content-center-mb-3"> 
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 16rem;">
+        <h5 class="card-title pt-2 text-center text-warning">Regalos empresariales</h5>  
+        <img src="C:\Users\Notebook\Desktop\bootstrap\img/chica.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           
+           <p class="card-text text-white-50 description"> Grupal <br>
+            Fiambres: 
+            <br>Quesos: </p>
+           <h5 class="text-warning "> Precio <span class="precio">$ 8000</span></h5>
+           <div class="d-grid gap-2">
+           <a> <button class="btn btn-warning d-block agregar-carrito">Agregar a Carrito <img src="C:\Users\Notebook\Desktop\bootstrap\img/carrito.png" ></button></a>
+          </div>
+          </div>
+       </div>
+    </div>
+
+  </div>
+
+</div>
+  
+ <div class="especificaciones">
+  <p> Las picadas contienen: Jamon crudo, queso, bondiola, lomo ahumado, chorizo colorado, salame picado grueso, aceitunas (verdes/negras), roquefort.
+    Si desea agregar algo mas, especificar en la compra. 
+  <br>
+</p>
+ </div>
+
+<div
+class="tab-pane face carrito"
+id="pills-contact"
+role="tabpanel"
+aria-labelledby="pills-contact-tab">
+
+
+  <table id="lista-carrito" class="table table-dark table-hover">
+
+      <thead>
+        <tr id="carro">
+          <th scope="col">#</th>
+          <th scope="col">Producto</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Cantidad</th>
+        </tr>
+      </thead>
+      
+      <tbody id="tbody">
+        <tr> </tr>
+      </tbody>
+    </table>
+    <br> 
+<br>
+<div class="row mx-4">
+  <div class="col colorTotal">
+    <h3 class="itemCartTotal">Total: 0 </h3>
+  </div>
+  <div class="col d-flex justify-content-end">
+    <button class="btn btn-success">COMPRAR</button>
+  </div>
+  
+ 
+</div>
+</div>
+
+</main>
+
+<footer>
+    <div class="final" id="contacto"> 
+      <ul>
+          <li> <a href="https://m.facebook.com/profile.php?id=100064865973433"> <img src="C:\Users\Notebook\Desktop\bootstrap\img/facebook.png"> </a> </li>
+          <li> <a href="#"> <img src="C:\Users\Notebook\Desktop\bootstrap\img/instagram.png"> </a> </li>
+          <li> <a href="mailto:lucascarballo17@gmail.com?Subject=Consulta%20desde%20la%20pagina"> <img src="C:\Users\Notebook\Desktop\bootstrap\img/gmail.png"> </a> </li>
+          <li> <a href="tel:0231415534764" class="llamar" onClick="return (navigater.userAgent.match(/android | iphone | movile/i)) != null"> <img src="C:\Users\Notebook\Desktop\bootstrap\img/celular.png"> </a> </li>
+        </ul>      
+    </div>
+    <div class="bg-dark p-3 mt-5">
+      <p class="text-center m-0 text-muted"> Carballo Ormaechea, Lucas. </p> 
+    </div>
+</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+
+</script>
+
+<script src="./js/carrito.js"></script>
+<script src="./js/pedido.js"></script>
+
+</body>
+</html>
